@@ -1,0 +1,11 @@
+.text {
+    color: red;
+}
+
+.text--orange {
+    color: orange;
+}
+
+.text__lang {
+    font-size: 20px;
+}

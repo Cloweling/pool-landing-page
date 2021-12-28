@@ -1,0 +1,9 @@
+.title {
+    font-size: 30px;
+}
+
+.title__primary {
+    padding: 15px;
+    background-color: grey;
+    color: white;
+}

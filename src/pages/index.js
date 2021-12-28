@@ -1,9 +1,9 @@
 import * as React from 'react'
-import Example from '../components/example'
+import { Layout } from '../components/layout'
 
 // markup
 const IndexPage = () => {
-  return <Example />
+  return <Layout />
 }
 
 export default IndexPage
