@@ -1,0 +1,10 @@
+node_modules
+public
+.cache
+
+README.md
+package*
+.nvmrc
+.gitignore
+.eslintignore
+.prettierignore
