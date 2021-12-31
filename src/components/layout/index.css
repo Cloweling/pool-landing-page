@@ -1,9 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: local('Lato'), url(../../fonts/Lato/Lato-Bold.ttf) format('truetype');
+
+  font-family: 'Catamaran-Regular';
+  src: local('Catamaran-Regular'), url(../../fonts/Catamaran/Catamaran-Regular.ttf) format('truetype');
+
+  font-family: 'Catamaran-Bold ';
+  src: local('Catamaran-Bold'), url(../../fonts/Catamaran/Catamaran-Bold.ttf) format('truetype');
+}
+
 .title {
-    font-size: 30px;
+  font-size: 30px;
 }
 
 .title__primary {
-    padding: 15px;
-    background-color: grey;
-    color: white;
+  padding: 15px;
+  background-color: grey;
+  color: white;
 }

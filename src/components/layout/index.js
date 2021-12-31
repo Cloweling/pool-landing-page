@@ -11,7 +11,6 @@ export const Layout = () => {
 
   return (
     <ThemeContext.Provider value={{ ...theme, setTheme }}>
-			<h1 className="title title__primary">Example</h1>
       <Header />
     </ThemeContext.Provider>
   )
