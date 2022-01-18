@@ -1,0 +1,31 @@
+.service {
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  padding: 1.5rem 0 2rem 0;
+  background-color: #e5e5e5;
+}
+
+.service__container {
+  width: 71%;
+}
+
+.service__background {
+  width: 29%;
+}
+
+.background__img {
+  width: 100%;
+}
+
+.service__cards {
+  padding: 1rem 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 2rem 2rem;
+  grid-template-areas:
+    '. . .'
+    '. . .';
+}

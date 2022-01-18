@@ -1,6 +1,8 @@
 import * as React from 'react'
 import { ThemeContext } from '../../contexts/themeContext'
-import { Header } from '../header'
+
+import Header from '../header'
+import Service from '../service'
 import Intersection1 from '../Intersections/Intersection-1'
 import Intersection2 from '../Intersections/Intersection-2'
 import Ubication from '../ubication'
@@ -16,6 +18,7 @@ export const Layout = () => {
   return (
     <ThemeContext.Provider value={{ ...theme, setTheme }}>
       <Header />
+      <Service />
       <Intersection1 />
       <Works />
       <Intersection2 />

@@ -1,8 +1,9 @@
-import React from 'react'
+import * as React from 'react'
+import PropTypes from 'prop-types'
 
 import './styles.css'
 
-export default function Title({ title } = {}) {
+const Title = ({ title }) => {
   return (
     <div className="title__container">
       <h2 className="title__label">{title}</h2>
@@ -10,3 +11,9 @@ export default function Title({ title } = {}) {
     </div>
   )
 }
+
+Title.propTypes = {
+  title: PropTypes.string.isRequired
+}
+
+export default Title
