@@ -1,7 +1,6 @@
 .swiper {
   width: 50%;
-  min-width: 800px;
-  height: 90%;
+  height: 80vh;
 }
 
 .swiper-slide {

@@ -6,11 +6,9 @@ import './styles.css'
 
 export default function Works() {
   return (
-    <>
-      <section className="works">
-        <Title title="Trabajos" />
-        <Carousel />
-      </section>
-    </>
+    <section className="works">
+      <Title title="Trabajos" />
+      <Carousel />
+    </section>
   )
 }
