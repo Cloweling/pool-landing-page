@@ -1,0 +1,75 @@
+.swiper {
+  width: 50%;
+  min-width: 800px;
+  height: 90%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  border-radius: 20px;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.swiper__container-element {
+  width: 90%;
+  height: 95%;
+  display: flex;
+  overflow-y: hidden;
+  object-fit: cover;
+  gap: 20px;
+}
+
+.swiper__container-element .swiper__container-image {
+  width: 100%;
+  height: 95%;
+  overflow: hidden;
+  position: relative;
+  border-radius: 20px;
+}
+
+.swiper__container-element .swiper__container-image img {
+  width: 100%;
+  margin-top: 30px;
+  object-fit: cover;
+}
+
+.swiper__container-element .swiper__label-before,
+.swiper__container-element .swiper__label-after {
+  position: absolute;
+  left: 0;
+  top: 12px;
+  padding: 15px 8px 15px 0;
+  width: 120px;
+  display: block;
+  border-bottom-right-radius: 45px;
+  background-color: rgb(44, 43, 43, 0.8);
+  color: #fff;
+  font-family: 'Catamaran', sans-serif;
+}
