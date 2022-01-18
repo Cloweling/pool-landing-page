@@ -1,0 +1,19 @@
+.service {
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.service__container {
+    width: 70%;
+}
+
+.service__background {
+    width: 30%;
+}
+
+.background__img {
+    width: 100%;
+}
+
