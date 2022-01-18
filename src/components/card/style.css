@@ -1,0 +1,41 @@
+.card {
+  width: 20rem;
+  height: 18rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fff;
+  box-shadow: 0.5rem 0.5rem 0.5rem rgb(0, 0, 0, 0.1);
+  border-radius: 2rem;
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 500;
+}
+
+.card:hover {
+  background-color: rgba(168, 216, 255, 0.5);
+  cursor: pointer;
+}
+
+.card__title {
+  align-self: center;
+  color: #000;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+}
+
+.card__description {
+  color: #7d7987;
+  font-size: 1rem;
+  line-height: 1.75rem;
+}
+
+.card__img {
+  align-self: center;
+}
+
+.card__img img {
+  width: 4rem;
+  height: auto;
+}

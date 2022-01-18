@@ -5,10 +5,12 @@ import './style.css'
 
 const Card = ({ title, description, img }) => {
   return (
-    <div>
-      <h2>{title}</h2>
-      <img src={img} alt={title} />
-      <p>{description}</p>
+    <div className="card">
+      <div className="card__img">
+        <img src={img} alt={title} />
+      </div>
+      <h2 className="card__title">{title}</h2>
+      <p className="card__description">{description}</p>
     </div>
   )
 }
@@ -16,7 +18,7 @@ const Card = ({ title, description, img }) => {
 Card.propTypes = {
   title: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
-  img: PropTypes.object.isRequired,
+  img: PropTypes.string.isRequired,
 }
 
 export default Card
