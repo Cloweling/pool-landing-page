@@ -1,0 +1,16 @@
+.footer {
+  width: 100%;
+  padding: 1rem 0;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer--description {
+  color: #0e3854;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  padding: 0;
+  margin: 0;
+}

@@ -58,4 +58,9 @@ const SERVICES = [
   },
 ]
 
-export { ELEMENT_NAV, SERVICES }
+const FOOTER = {
+  es: 'Todos los derechos reservados - 2022',
+  en: 'All rights reserved - 2022',
+}
+
+export { ELEMENT_NAV, SERVICES, FOOTER }
