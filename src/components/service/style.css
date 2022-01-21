@@ -1,5 +1,5 @@
 .service {
-  height: 100vh;
+  max-height: 49rem;
   display: flex;
   justify-content: space-between;
   overflow: hidden;
