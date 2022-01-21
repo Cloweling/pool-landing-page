@@ -1,9 +1,9 @@
-import Algae from '../images/service-img/algae.svg'
-import Spa from '../images/service-img/spa.svg'
-import Acid from '../images/service-img/acid.svg'
-import Salt from '../images/service-img/salt.svg'
-import Sales from '../images/service-img/sales.svg'
-import Installation from '../images/service-img/installation.svg'
+import Algae from '../images/service/algae.svg'
+import Spa from '../images/service/spa.svg'
+import Acid from '../images/service/acid.svg'
+import Salt from '../images/service/salt.svg'
+import Sales from '../images/service/sales.svg'
+import Installation from '../images/service/installation.svg'
 
 const ELEMENT_NAV = [
   {

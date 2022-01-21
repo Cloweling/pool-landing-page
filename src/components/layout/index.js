@@ -1,16 +1,16 @@
 import * as React from 'react'
 import { ThemeContext } from '../../contexts/themeContext'
 
-import Header from '../header'
-import Service from '../service'
-import Intersection1 from '../Intersections/Intersection-1'
-import Intersection2 from '../Intersections/Intersection-2'
-import Ubication from '../ubication'
-import Works from '../works'
-import About from '../about'
+import Works from '../sections/works'
+import About from '../sections/about'
+import Footer from '../sections/footer'
+import Header from '../sections/header'
+import Service from '../sections/service'
+import Ubication from '../sections/ubication'
+import Intersection2 from '../sections/intersections/intersection-2'
+import Intersection1 from '../sections/intersections/intersection-1'
 
 import './index.css'
-import Footer from '../footer'
 
 export const Layout = () => {
   const [theme, setTheme] = React.useState({

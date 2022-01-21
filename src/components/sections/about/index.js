@@ -1,10 +1,10 @@
 import * as React from 'react'
 
-import photo from '../../images/about/photo.jpg'
-import PhoneSVG from '../../images/about/phone.svg'
-import WhatsappSVG from '../../images/about/whatsapp.svg'
-import FacebookSVG from '../../images/about/facebook.svg'
-import InstagramSVG from '../../images/about/instagram.svg'
+import photo from '../../../images/about/photo.jpg'
+import PhoneSVG from '../../../images/about/phone.svg'
+import WhatsappSVG from '../../../images/about/whatsapp.svg'
+import FacebookSVG from '../../../images/about/facebook.svg'
+import InstagramSVG from '../../../images/about/instagram.svg'
 import './styles.css'
 
 const About = () => {
