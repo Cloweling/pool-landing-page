@@ -7,10 +7,11 @@ import Footer from '../sections/footer'
 import Header from '../sections/header'
 import Service from '../sections/service'
 import Ubication from '../sections/ubication'
-import Intersection2 from '../sections/intersections/intersection-2'
-import Intersection1 from '../sections/intersections/intersection-1'
+import Intersection from '../sections/intersection'
 
 import './index.css'
+import intersection1 from '../../images/intersertion/intersection-1.jpg'
+import intersection2 from '../../images/intersertion/intersection-2.jpg'
 
 export const Layout = () => {
   const [theme, setTheme] = React.useState({
@@ -21,9 +22,13 @@ export const Layout = () => {
     <ThemeContext.Provider value={{ ...theme, setTheme }}>
       <Header />
       <Service />
-      <Intersection1 />
+      <Intersection>
+        <img src={intersection1} alt="Pitu's Poolman Intersecion" className="intersection--image" />
+      </Intersection>
       <Works />
-      <Intersection2 />
+      <Intersection>
+        <img src={intersection2} alt="Pitu's Poolman Intersecion" className="intersection--image" />
+      </Intersection>
       <Ubication />
       <About />
       <Footer />
