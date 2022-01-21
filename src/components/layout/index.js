@@ -9,6 +9,7 @@ import Ubication from '../ubication'
 import Works from '../works'
 
 import './index.css'
+import Footer from '../footer'
 
 export const Layout = () => {
   const [theme, setTheme] = React.useState({
@@ -23,6 +24,7 @@ export const Layout = () => {
       <Works />
       <Intersection2 />
       <Ubication />
+      <Footer />
     </ThemeContext.Provider>
   )
 }
