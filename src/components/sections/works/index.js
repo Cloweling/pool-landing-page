@@ -1,6 +1,6 @@
 import React from 'react'
-import Carousel from '../carousel'
-import Title from '../title'
+import Carousel from '../../carousel'
+import Title from '../../title'
 
 import './styles.css'
 

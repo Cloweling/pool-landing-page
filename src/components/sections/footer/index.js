@@ -1,6 +1,6 @@
 import React from 'react'
 import './styles.css'
-import { FOOTER } from '../../constants'
+import { FOOTER } from '../../../constants'
 
 const Footer = () => {
   const { es } = FOOTER

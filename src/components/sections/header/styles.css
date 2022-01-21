@@ -1,7 +1,7 @@
 .header {
   height: 100vh;
   width: 100%;
-  background: url('../../images/header-img/header-background-image.jpg') #028fad no-repeat;
+  background: url('../../../images/header/background.jpg') #028fad no-repeat;
   background-size: cover;
 
   display: flex;

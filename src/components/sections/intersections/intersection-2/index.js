@@ -1,6 +1,6 @@
 import React from 'react'
 
-import intersection2 from '../../../images/intersection-2/intersection-2.jpg'
+import intersection2 from '../../../../images/intersection-2/intersection-2.jpg'
 import './styles.css'
 
 export default function Intersection2() {

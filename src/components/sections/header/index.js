@@ -1,11 +1,11 @@
 import * as React from 'react'
 // import { ThemeContext } from '../../contexts/themeContext'
-import { ELEMENT_NAV } from '../../constants/index'
+import { ELEMENT_NAV } from '../../../constants/index'
 
 import './styles.css'
-import Button from '../button'
-import Logo from '../logo'
-import Switch from '../switch'
+import Button from '../../button'
+import Logo from '../../logo'
+import Switch from '../../switch'
 
 const Header = () => {
   // const { lang } = React.useContext(ThemeContext)

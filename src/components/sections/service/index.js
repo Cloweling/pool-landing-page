@@ -1,11 +1,11 @@
 import * as React from 'react'
 
-import Title from '../title'
-import Card from '../card'
+import Title from '../../title'
+import Card from '../../card'
 
 import './style.css'
-import { SERVICES } from '../../constants'
-import backround from '../../images/service-img/background.jpeg'
+import { SERVICES } from '../../../constants'
+import bg from '../../../images/service/background.jpeg'
 
 const Service = () => {
   return (
@@ -19,7 +19,7 @@ const Service = () => {
         </div>
       </div>
       <div className="service__background">
-        <img className="background__img" src={backround} alt="Services Pool" />
+        <img className="background__img" src={bg} alt="Services Pool" />
       </div>
     </section>
   )

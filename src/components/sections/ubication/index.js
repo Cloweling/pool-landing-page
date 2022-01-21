@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Map from '../map/index'
-import Title from '../title'
+import Title from '../../title'
 
 import './styles.css'
 
