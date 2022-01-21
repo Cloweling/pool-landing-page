@@ -1,0 +1,12 @@
+.intersection--container {
+  width: 100%;
+  height: 100vh;
+  background-color: #f5f5dc;
+  overflow: hidden;
+}
+
+.intersection--image {
+  width: 100%;
+  height: auto;
+  vertical-align: top;
+}
