@@ -1,9 +1,9 @@
-import imgAlgae from '../images/service-img/algae.png'
-import imgSpa from '../images/service-img/spa.png'
-import imgAcid from '../images/service-img/acid.png'
-import imgSalt from '../images/service-img/salt.png'
-import imgSales from '../images/service-img/sales.png'
-import imgInstallation from '../images/service-img/installation.png'
+import Algae from '../images/service-img/algae.svg'
+import Spa from '../images/service-img/spa.svg'
+import Acid from '../images/service-img/acid.svg'
+import Salt from '../images/service-img/salt.svg'
+import Sales from '../images/service-img/sales.svg'
+import Installation from '../images/service-img/installation.svg'
 
 const ELEMENT_NAV = [
   {
@@ -28,33 +28,33 @@ const SERVICES = [
   {
     title: 'Eliminacion de algas',
     description: 'Elimina todo rastro de algas para evitar problemas de salud',
-    img: imgAlgae,
+    Img: Algae,
   },
   {
     title: 'Spa',
     description: 'Elimina todo rastro de algas para evitar problemas de salud',
-    img: imgSpa,
+    Img: Spa,
   },
 
   {
     title: 'Lavado con Acido',
     description: 'Elimina todo rastro de algas para evitar problemas de salud',
-    img: imgAcid,
+    Img: Acid,
   },
   {
     title: 'Sistemas de Sal',
     description: 'Elimina todo rastro de algas para evitar problemas de salud',
-    img: imgSalt,
+    Img: Salt,
   },
   {
     title: 'Sales Service',
     description: 'Elimina todo rastro de algas para evitar problemas de salud',
-    img: imgSales,
+    Img: Sales,
   },
   {
     title: 'Instalacion',
     description: 'Elimina todo rastro de algas para evitar problemas de salud',
-    img: imgInstallation,
+    Img: Installation,
   },
 ]
 

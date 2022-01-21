@@ -3,8 +3,8 @@
   display: flex;
   justify-content: space-between;
   overflow: hidden;
-  padding: 1.5rem 0 2rem 0;
-  background-color: #e5e5e5;
+  padding: 0rem 0 2rem 0;
+  background-color: #eee;
 }
 
 .service__container {

@@ -13,8 +13,8 @@ const Service = () => {
       <div className="service__container">
         <Title title="Services" />
         <div className="service__cards">
-          {SERVICES.map(({ title, description, img }) => {
-            return <Card key={title} title={title} description={description} img={img} />
+          {SERVICES.map(({ title, description, Img }) => {
+            return <Card key={title} title={title} description={description} Img={Img} />
           })}
         </div>
       </div>
