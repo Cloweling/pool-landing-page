@@ -7,6 +7,7 @@ import Intersection1 from '../Intersections/Intersection-1'
 import Intersection2 from '../Intersections/Intersection-2'
 import Ubication from '../ubication'
 import Works from '../works'
+import About from '../about'
 
 import './index.css'
 import Footer from '../footer'
@@ -24,6 +25,7 @@ export const Layout = () => {
       <Works />
       <Intersection2 />
       <Ubication />
+      <About />
       <Footer />
     </ThemeContext.Provider>
   )
