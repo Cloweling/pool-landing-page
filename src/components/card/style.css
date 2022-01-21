@@ -12,11 +12,6 @@
   font-weight: 500;
 }
 
-.card:hover {
-  background-color: rgba(168, 216, 255, 0.5);
-  cursor: pointer;
-}
-
 .card__title {
   align-self: center;
   color: #000;
@@ -29,13 +24,20 @@
   color: #7d7987;
   font-size: 1rem;
   line-height: 1.75rem;
+  margin-top: 0.5rem;
 }
 
 .card__img {
+  display: flex;
   align-self: center;
+  justify-content: flex-end;
 }
 
-.card__img img {
+.card__img svg {
   width: 4rem;
-  height: auto;
+  height: 4rem;
+}
+
+.card__img svg g {
+  fill: #458dfc;
 }
