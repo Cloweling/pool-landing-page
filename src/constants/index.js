@@ -7,19 +7,18 @@ import Installation from '../images/service/installation.svg'
 
 const ELEMENT_NAV = [
   {
-    en: 'LOCATION',
-    es: 'UBICACIÓN',
-    href: 'http://wwww.google.com',
-  },
-  {
     en: 'SERVICES',
     es: 'SERVICIOS',
     href: 'http://wwww.google.com',
   },
-
   {
     en: 'WORKS',
     es: 'TRABAJOS',
+    href: 'http://wwww.google.com',
+  },
+  {
+    en: 'LOCATION',
+    es: 'UBICACIÓN',
     href: 'http://wwww.google.com',
   },
 ]

@@ -36,14 +36,14 @@
   margin: 0;
   padding: 0;
   width: 100%;
+  display: flex;
 }
 
 .nav__container-links li {
-  float: right;
   margin-left: 30px;
 }
 
-.nav__container-links li a {
+.nav__link {
   display: block;
   color: #fff;
   padding: 8px 16px;
@@ -52,6 +52,8 @@
   font-family: 'Lato', sans-serif;
   font-weight: 700;
   letter-spacing: 0.5px;
+  border-radius: 8px;
+  transition: background-color ease-in-out 0.3s, color ease-in-out 0.3s;
 }
 
 .header__container-titles {
@@ -88,4 +90,11 @@
 .header__right {
   height: 100vh;
   width: 30%;
+}
+
+@media (hover: hover) {
+  .nav__link:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #0e3854;
+  }
 }
