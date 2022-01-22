@@ -10,14 +10,14 @@ export default function Switch() {
     <div className="switch">
       {/* TODO: Hay que resolver un problema de accesibilidad, pues si se clickean los label, éstos no cambian al switch */}
       <label className="switch__label" checked={enabled} onChange={setEnabled}>
-        Es
+        En
       </label>
       <SwitchUtil checked={enabled} onChange={setEnabled} className={`${enabled ? 'bg-1' : 'bg-2'} switch__component`}>
         <span className="switch__sr-only">Enable notifications</span>
         <span className={`${enabled ? 'switch__activate' : 'switch__desactivate'} switch__toggle`} />
       </SwitchUtil>
       <label className="switch__label" checked={enabled} onChange={setEnabled}>
-        En
+        Es
       </label>
     </div>
   )
