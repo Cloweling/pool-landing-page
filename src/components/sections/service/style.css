@@ -29,3 +29,27 @@
     '. . .'
     '. . .';
 }
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 972px) and (orientation: portrait) {
+  .service__background {
+    display: none;
+  }
+
+  .service__container {
+    width: 100%;
+  }
+
+  .service {
+    max-height: 70rem;
+    overflow: none;
+  }
+
+  .service__cards {
+    padding: auto auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 1rem 1rem;
+    grid-template-areas: '. ';
+  }
+}

@@ -41,3 +41,23 @@
 .card__img svg g {
   fill: #458dfc;
 }
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 972px) and (orientation: portrait) {
+  .card {
+    height: 13rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0rem 2rem;
+  }
+
+  .card__title {
+    width: 8rem;
+    font-size: 1.4rem;
+    justify-self: center;
+  }
+
+  .card__description {
+    margin: 0;
+    line-height: 1.5rem;
+  }
+}

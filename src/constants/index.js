@@ -30,7 +30,7 @@ const SERVICES = [
     Img: Algae,
   },
   {
-    title: 'Spa',
+    title: 'Servicios Spa',
     description: 'Elimina todo rastro de algas para evitar problemas de salud',
     Img: Spa,
   },
