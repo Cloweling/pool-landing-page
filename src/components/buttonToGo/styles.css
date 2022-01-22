@@ -4,7 +4,7 @@
   right: 2rem;
   padding: 1.3rem;
   border-radius: 50%;
-  background-color: #009CBF;
+  background-color: #009cbf;
   color: #fff;
   box-shadow: 0.2rem 0.2rem 0.1rem 0 rgba(0, 0, 0, 0.5);
   transition: bottom ease-in-out 0.5s;
@@ -12,7 +12,7 @@
 }
 
 .button-to-go:active {
-  background-color: #0E3854;
+  background-color: #0e3854;
 }
 
 .button-to-go svg {
@@ -26,6 +26,13 @@
 
 @media (hover: hover) {
   .button-to-go:hover {
-    background-color: #0E3854;
+    background-color: #0e3854;
+  }
+}
+
+@media only screen and (min-device-width: 300px) and (max-device-width: 972px) and (orientation: portrait) {
+  .button-to-go {
+    right: 1rem;
+    padding: 0.7rem;
   }
 }
