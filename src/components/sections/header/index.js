@@ -1,9 +1,10 @@
 import * as React from 'react'
+import { AnchorLink } from 'gatsby-plugin-anchor-links'
 // import { ThemeContext } from '../../contexts/themeContext'
 import { ELEMENT_NAV } from '../../../constants/index'
 
 import './styles.css'
-import Button from '../../button'
+import ButtonAchor from '../../buttonAnchor'
 import Logo from '../../logo'
 import Switch from '../../switch'
 
@@ -21,9 +22,9 @@ const Header = () => {
               {ELEMENT_NAV.map((el) => {
                 return (
                   <li key={el.es}>
-                    <a href={el.href} className="nav__link">
+                    <AnchorLink to={el.to} className="nav__link">
                       {el.es}
-                    </a>
+                    </AnchorLink>
                   </li>
                 )
               })}
@@ -44,7 +45,7 @@ const Header = () => {
         </div>
 
         <div>
-          <Button />
+          <ButtonAchor value="Contactar" to="/#id-contact" />
         </div>
       </div>
 

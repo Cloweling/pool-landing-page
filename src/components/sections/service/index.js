@@ -11,7 +11,7 @@ const Service = () => {
   return (
     <section className="service">
       <div className="service__container">
-        <Title title="Services" />
+        <Title title="Services" id="id-services" />
         <div className="service__cards">
           {SERVICES.map(({ title, description, Img }) => {
             return <Card key={title} title={title} description={description} Img={Img} />

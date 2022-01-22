@@ -1,4 +1,4 @@
-.about {
+.contact {
   min-height: 25rem;
   display: flex;
   flex-direction: column;
@@ -8,7 +8,7 @@
   background-color: #0e3854;
 }
 
-.about__container {
+.contact__container {
   display: flex;
   flex-grow: 2;
   gap: 5rem;
@@ -49,7 +49,7 @@
 }
 
 .info__social a {
-    color: #fff;
+  color: #fff;
 }
 
 .info__social svg {

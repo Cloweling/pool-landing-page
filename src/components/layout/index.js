@@ -2,7 +2,7 @@ import * as React from 'react'
 import { ThemeContext } from '../../contexts/themeContext'
 
 import Works from '../sections/works'
-import About from '../sections/about'
+import Contact from '../sections/contact'
 import Footer from '../sections/footer'
 import Header from '../sections/header'
 import Service from '../sections/service'
@@ -30,7 +30,7 @@ export const Layout = () => {
         <img src={intersection2} alt="Pitu's Poolman Intersecion" className="intersection--image" />
       </Intersection>
       <Ubication />
-      <About />
+      <Contact />
       <Footer />
     </ThemeContext.Provider>
   )

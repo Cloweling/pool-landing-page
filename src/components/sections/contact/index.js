@@ -1,16 +1,16 @@
 import * as React from 'react'
 
-import photo from '../../../images/about/photo.jpg'
-import PhoneSVG from '../../../images/about/phone.svg'
-import WhatsappSVG from '../../../images/about/whatsapp.svg'
-import FacebookSVG from '../../../images/about/facebook.svg'
-import InstagramSVG from '../../../images/about/instagram.svg'
+import photo from '../../../images/contact/photo.jpg'
+import PhoneSVG from '../../../images/contact/phone.svg'
+import WhatsappSVG from '../../../images/contact/whatsapp.svg'
+import FacebookSVG from '../../../images/contact/facebook.svg'
+import InstagramSVG from '../../../images/contact/instagram.svg'
 import './styles.css'
 
-const About = () => {
+const Contact = () => {
   return (
-    <section className="about">
-      <div className="about__container">
+    <section id="id-contact" className="contact">
+      <div className="contact__container">
         <div className="container__photo">
           <img src={photo} alt="Nombre" />
         </div>
@@ -37,4 +37,4 @@ const About = () => {
   )
 }
 
-export default About
+export default Contact

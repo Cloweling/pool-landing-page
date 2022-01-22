@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 import './styles.css'
 
 const Intersection = ({ children }) => {
-  return <div className="intersection--container">{children}</div>
+  return <section className="intersection--container">{children}</section>
 }
 
 Intersection.propTypes = { children: PropTypes.node.isRequired }
