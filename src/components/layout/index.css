@@ -27,3 +27,7 @@ body {
   background-color: grey;
   color: white;
 }
+
+.root__container {
+  position: relative;
+}

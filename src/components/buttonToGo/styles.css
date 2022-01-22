@@ -1,0 +1,30 @@
+.button-to-go {
+  position: fixed;
+  bottom: 1rem;
+  right: 2rem;
+  padding: 1.3rem;
+  border-radius: 50%;
+  background-color: #0069cc;
+  color: #fff;
+  box-shadow: 0.2rem 0.2rem 0.1rem 0 rgba(0, 0, 0, 0.8);
+  transition: bottom ease-in-out 0.5s;
+}
+
+.button-to-go:active {
+  background-color: #108afc;
+}
+
+.button-to-go svg {
+  width: 2rem;
+  height: 2rem;
+}
+
+.button-hidden {
+  bottom: -5rem;
+}
+
+@media (hover: hover) {
+  .button-to-go:hover {
+    background-color: #108afc;
+  }
+}
