@@ -1,37 +1,43 @@
 .service {
-  max-height: 49rem;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   overflow: hidden;
-  padding: 0rem 0 2rem 0;
   background-color: #eee;
 }
 
 .service__container {
   width: 71%;
+  padding-bottom: 2rem;
 }
 
 .service__background {
   width: 29%;
+  overflow: hidden;
+  background-color: #2d8e95;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .background__img {
   width: 100%;
+  max-height: 52rem;
+  vertical-align: top;
 }
 
 .service__cards {
-  padding: 1rem 2rem;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  gap: 2rem 2rem;
-  grid-template-areas:
-    '. . .'
-    '. . .';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.7rem;
+  padding: 0 0.5rem;
 }
 
 @media only screen and (min-device-width: 300px) and (max-device-width: 972px) and (orientation: portrait) {
-  .service__background {
+  .service__background,
+  .background__img {
     display: none;
   }
 
@@ -40,16 +46,7 @@
   }
 
   .service {
-    max-height: 70rem;
+    /* height: auto; */
     overflow: none;
-  }
-
-  .service__cards {
-    padding: auto auto;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    gap: 1rem 1rem;
-    grid-template-areas: '. ';
   }
 }
