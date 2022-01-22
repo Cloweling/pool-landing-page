@@ -16,7 +16,6 @@ const Header = () => {
       <div className="header__left">
         <nav className="header__nav">
           <Logo />
-
           <div className="nav__container-links">
             <ul className="nav__links-list">
               {ELEMENT_NAV.map((el) => {
@@ -38,8 +37,8 @@ const Header = () => {
           <h1 className="header__title">PITU&apos;S POOLMAN</h1>
           <div className="header__container-description">
             <p>
-              Los <span>mejores</span> para limpiar tus piscinas! No más colores raros y objetos indeseados, solamente
-              una gran y relajante <span>agua azul</span>.
+              Los <strong>mejores</strong> para limpiar tus piscinas! No más colores raros y objetos indeseados, solamente
+              una gran y relajante <strong>agua azul</strong>.
             </p>
           </div>
         </div>
