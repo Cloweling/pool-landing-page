@@ -68,7 +68,7 @@
 .header__title {
   font-size: 4.5rem;
   color: #fff;
-  width: 400px;
+  width: 25rem;
   word-break: break-word;
   font-family: 'Lato', sans-serif;
   font-weight: 700;
@@ -89,9 +89,54 @@
   width: 30%;
 }
 
+.header__menu {
+  width: 3rem;
+  display: flex;
+  align-items: center;
+}
+
+.menu__buger {
+  width: 3rem;
+  height: auto;
+  color: #fff;
+  display: none;
+}
+
 @media (hover: hover) {
   .nav__link:hover {
     background-color: rgba(255, 255, 255, 0.8);
     color: #0e3854;
+  }
+}
+
+@media only screen and (min-device-width: 300px) and (max-device-width: 972px) and (orientation: portrait) {
+  .header__title {
+    font-size: 3.5rem;
+    width: 18.5rem;
+  }
+
+  .header__left {
+    width: 100%;
+  }
+
+  .header__nav {
+    justify-content: space-between;
+  }
+  .header__container-logo {
+    margin-right: auto;
+  }
+
+  .header__container-description {
+    font-size: 1.3rem;
+    width: 18.5rem;
+  }
+
+  .nav__container-links {
+    display: none;
+  }
+
+  .menu__buger {
+    display: inline-block;
+    margin-left: 0.5rem;
   }
 }

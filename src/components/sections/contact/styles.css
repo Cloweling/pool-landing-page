@@ -54,5 +54,26 @@
 
 .info__social svg {
   width: 2rem;
-  height: 2rem;
+  height: auto;
+}
+
+@media only screen and (min-device-width: 300px) and (max-device-width: 972px) and (orientation: portrait) {
+  .contact__container {
+    flex-direction: column;
+    padding: 1rem 0;
+  }
+
+  .contact__container {
+    flex-grow: 0;
+    gap: 0rem;
+  }
+
+  .description__name {
+    margin-top: 1.5rem;
+  }
+
+  .container__photo img {
+    width: 10rem;
+    height: auto;
+  }
 }

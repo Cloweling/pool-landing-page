@@ -35,3 +35,22 @@
   width: 60%;
   height: 100%;
 }
+
+@media only screen and (min-device-width: 300px) and (max-device-width: 972px) and (orientation: portrait) {
+  .ubication {
+    height: 40rem;
+  }
+
+  .ubication--container-description {
+    display: none;
+  }
+
+  .ubication--information {
+    height: 30rem;
+  }
+
+  .ubication--container-map {
+    width: 100%;
+    height: 100%;
+  }
+}

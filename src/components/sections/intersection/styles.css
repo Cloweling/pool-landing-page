@@ -10,3 +10,9 @@
   height: auto;
   vertical-align: top;
 }
+
+@media only screen and (min-device-width: 300px) and (max-device-width: 972px) and (orientation: portrait) {
+  .intersection--container {
+    height: auto;
+  }
+}

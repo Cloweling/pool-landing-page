@@ -4,9 +4,10 @@ import { AnchorLink } from 'gatsby-plugin-anchor-links'
 import { ELEMENT_NAV } from '../../../constants/index'
 
 import './styles.css'
-import ButtonAchor from '../../buttonAnchor'
 import Logo from '../../logo'
 import Switch from '../../switch'
+import ButtonAchor from '../../buttonAnchor'
+import Menu from '../../../images/header/menu.svg'
 
 const Header = () => {
   // const { lang } = React.useContext(ThemeContext)
@@ -31,14 +32,17 @@ const Header = () => {
           </div>
 
           <Switch />
+          <div className="header__menu">
+            <Menu className="menu__buger" />
+          </div>
         </nav>
 
         <div className="header__container-titles">
           <h1 className="header__title">PITU&apos;S POOLMAN</h1>
           <div className="header__container-description">
             <p>
-              Los <strong>mejores</strong> para limpiar tus piscinas! No más colores raros y objetos indeseados, solamente
-              una gran y relajante <strong>agua azul</strong>.
+              Los <strong>mejores</strong> para limpiar tus piscinas! No más colores raros y objetos indeseados,
+              solamente una gran y relajante <strong>agua azul</strong>.
             </p>
           </div>
         </div>
