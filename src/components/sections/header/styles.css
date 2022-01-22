@@ -112,7 +112,7 @@
 @media only screen and (min-device-width: 300px) and (max-device-width: 972px) and (orientation: portrait) {
   .header__title {
     font-size: 3.5rem;
-    width: 20rem;
+    width: 18.5rem;
   }
 
   .header__left {
@@ -128,7 +128,7 @@
 
   .header__container-description {
     font-size: 1.3rem;
-    width: 22rem;
+    width: 18.5rem;
   }
 
   .nav__container-links {
