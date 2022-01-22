@@ -13,13 +13,13 @@
 }
 
 .button-anchor:active {
-  background-color: #00488b;
+  background-color: #0E3854;
   color: #fff;
 }
 
 @media (hover: hover) {
   .button-anchor:hover {
-    background-color: #00488b;
+    background-color: #0E3854;
     color: #fff;
   }
 }

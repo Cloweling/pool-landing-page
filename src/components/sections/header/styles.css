@@ -25,13 +25,14 @@
 }
 
 .nav__container-links {
+  margin-left: 1rem;
   width: 70%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.nav__container-links .nav__links-list {
+.nav__links-list {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -39,8 +40,8 @@
   display: flex;
 }
 
-.nav__container-links li {
-  margin-left: 30px;
+.nav__links-list li {
+  margin-left: 0.5rem;
 }
 
 .nav__link {
@@ -51,14 +52,14 @@
   font-size: 1.2rem;
   font-family: 'Lato', sans-serif;
   font-weight: 700;
-  letter-spacing: 0.5px;
-  border-radius: 8px;
+  letter-spacing: 0.05rem;
+  border-radius: 0.5rem;
   transition: background-color ease-in-out 0.3s, color ease-in-out 0.3s;
 }
 
 .header__container-titles {
   width: 100%;
-  height: 65vh;
+  height: 70%;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -74,16 +75,12 @@
 }
 
 .header__container-description {
-  width: 500px;
+  width: 33rem;
   color: #fff;
   font-size: 1.5rem;
-  line-height: 36px;
+  line-height: 2rem;
   font-family: 'Catamaran', sans-serif;
   font-weight: 400;
-}
-
-.header__container-description span {
-  font-weight: 700;
 }
 
 /* Lado derecho */
