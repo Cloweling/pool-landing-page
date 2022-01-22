@@ -21,7 +21,9 @@ const Header = () => {
               {ELEMENT_NAV.map((el) => {
                 return (
                   <li key={el.es}>
-                    <a href={el.href}>{el.es}</a>
+                    <a href={el.href} className="nav__link">
+                      {el.es}
+                    </a>
                   </li>
                 )
               })}
