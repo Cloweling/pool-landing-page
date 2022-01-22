@@ -12,7 +12,7 @@ const Header = () => {
   // const { lang } = React.useContext(ThemeContext)
 
   return (
-    <header className="header">
+    <header id="id-header" className="header">
       <div className="header__left">
         <nav className="header__nav">
           <Logo />
