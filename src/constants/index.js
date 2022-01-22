@@ -9,17 +9,17 @@ const ELEMENT_NAV = [
   {
     en: 'SERVICES',
     es: 'SERVICIOS',
-    href: 'http://wwww.google.com',
+    to: '/#id-services',
   },
   {
     en: 'WORKS',
     es: 'TRABAJOS',
-    href: 'http://wwww.google.com',
+    to: '/#id-works',
   },
   {
-    en: 'LOCATION',
+    en: 'UBICATION',
     es: 'UBICACIÓN',
-    href: 'http://wwww.google.com',
+    to: '/#id-ubication',
   },
 ]
 

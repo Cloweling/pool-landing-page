@@ -10,7 +10,7 @@ const DESCRIPTION = 'Alejandro Cardenas 16830 Kingsbury St APT 210 CA 91344 Gran
 const Ubication = () => {
   return (
     <section className="ubication">
-      <Title title="Ubicación" />
+      <Title title="Ubicación" id="id-ubication" />
       <div className="ubication--information">
         <div className="ubication--container-description">
           <h3 className="ubication--description">{DESCRIPTION}</h3>

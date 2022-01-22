@@ -7,7 +7,7 @@ import './styles.css'
 export default function Works() {
   return (
     <section className="works">
-      <Title title="Trabajos" />
+      <Title title="Trabajos" id="id-works" />
       <Carousel />
     </section>
   )
