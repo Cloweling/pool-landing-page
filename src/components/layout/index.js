@@ -29,7 +29,7 @@ export const Layout = () => {
   return (
     <ThemeContext.Provider value={{ ...theme, setTheme, scroll }}>
       <div className="root__container">
-        <Header />
+        {/* <Header /> */}
         <Service />
         <Intersection>
           <img src={intersection1} alt="Pitu's Poolman Intersecion" className="intersection--image" />

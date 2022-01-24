@@ -1,18 +1,11 @@
 .intersection--container {
   width: 100%;
-  height: 100vh;
+  max-height: 100vh;
   background-color: #f5f5dc;
   overflow: hidden;
 }
 
 .intersection--image {
   width: 100%;
-  height: auto;
   vertical-align: top;
-}
-
-@media only screen and (min-device-width: 300px) and (max-device-width: 972px) and (orientation: portrait) {
-  .intersection--container {
-    height: auto;
-  }
 }
