@@ -109,7 +109,7 @@
   }
 }
 
-@media only screen and (min-device-width: 300px) and (max-device-width: 972px) and (orientation: portrait) {
+@media only screen and (max-device-width: 972px) and (orientation: portrait) {
   .header__title {
     font-size: 3.5rem;
     width: 18.5rem;

@@ -35,7 +35,7 @@
   padding: 0 0.5rem;
 }
 
-@media only screen and (min-device-width: 300px) and (max-device-width: 972px) and (orientation: portrait) {
+@media only screen and (max-device-width: 1451px) {
   .service__background,
   .background__img {
     display: none;
@@ -43,10 +43,5 @@
 
   .service__container {
     width: 100%;
-  }
-
-  .service {
-    /* height: auto; */
-    overflow: none;
   }
 }
