@@ -3,16 +3,15 @@
   width: 100%;
   background: url('../../../images/header/background.jpg') #028fad no-repeat;
   background-size: cover;
-
   display: flex;
   flex-direction: row;
 }
 
 .header__left {
   height: 100vh;
-  width: 70%;
+  width: 70vw;
+  min-width: 800px;
   padding: 2% 0 0 7%;
-
   display: flex;
   flex-direction: column;
 }
@@ -83,25 +82,6 @@
   font-weight: 400;
 }
 
-/* Lado derecho */
-.header__right {
-  height: 100vh;
-  width: 30%;
-}
-
-.header__menu {
-  width: 3rem;
-  display: flex;
-  align-items: center;
-}
-
-.menu__buger {
-  width: 3rem;
-  height: auto;
-  color: #fff;
-  display: none;
-}
-
 @media (hover: hover) {
   .nav__link:hover {
     background-color: rgba(255, 255, 255, 0.8);
@@ -117,6 +97,8 @@
 
   .header__left {
     width: 100%;
+    min-width: 0px;
+    padding-right: 2rem;
   }
 
   .header__nav {
