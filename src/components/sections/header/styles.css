@@ -3,16 +3,16 @@
   width: 100%;
   background: url('../../../images/header/background.jpg') #028fad no-repeat;
   background-size: cover;
-
   display: flex;
   flex-direction: row;
+  padding-top: 1rem;
 }
 
 .header__left {
   height: 100vh;
-  width: 70%;
+  width: 70vw;
+  min-width: 800px;
   padding: 2% 0 0 7%;
-
   display: flex;
   flex-direction: column;
 }
@@ -83,25 +83,6 @@
   font-weight: 400;
 }
 
-/* Lado derecho */
-.header__right {
-  height: 100vh;
-  width: 30%;
-}
-
-.header__menu {
-  width: 3rem;
-  display: flex;
-  align-items: center;
-}
-
-.menu__buger {
-  width: 3rem;
-  height: auto;
-  color: #fff;
-  display: none;
-}
-
 @media (hover: hover) {
   .nav__link:hover {
     background-color: rgba(255, 255, 255, 0.8);
@@ -111,32 +92,30 @@
 
 @media only screen and (max-device-width: 972px) and (orientation: portrait) {
   .header__title {
-    font-size: 3.5rem;
+    font-size: 3rem;
     width: 18.5rem;
   }
 
   .header__left {
     width: 100%;
+    min-width: 0px;
+    padding-right: 2rem;
   }
 
   .header__nav {
     justify-content: space-between;
   }
+
   .header__container-logo {
     margin-right: auto;
   }
 
   .header__container-description {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     width: 18.5rem;
   }
 
   .nav__container-links {
     display: none;
-  }
-
-  .menu__buger {
-    display: inline-block;
-    margin-left: 0.5rem;
   }
 }

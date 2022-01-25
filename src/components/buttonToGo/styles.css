@@ -32,7 +32,8 @@
 
 @media only screen and (max-device-width: 972px) and (orientation: portrait) {
   .button-to-go {
-    right: 1rem;
-    padding: 0.7rem;
+    /* right: 1rem;
+    padding: 0.7rem; */
+    display: none;
   }
 }

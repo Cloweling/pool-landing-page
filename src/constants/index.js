@@ -4,6 +4,10 @@ import Acid from '../images/service/acid.svg'
 import Salt from '../images/service/salt.svg'
 import Sales from '../images/service/sales.svg'
 import Installation from '../images/service/installation.svg'
+import home from '../images/navbar-mobile/home.svg'
+import services from '../images/navbar-mobile/services.svg'
+import works from '../images/navbar-mobile/works.svg'
+import ubication from '../images/navbar-mobile/ubication.svg'
 
 const ELEMENT_NAV = [
   {
@@ -25,7 +29,7 @@ const ELEMENT_NAV = [
 
 const SERVICES = [
   {
-    title: 'Eliminacion de algas',
+    title: 'Eliminación de algas',
     description: 'Elimina todo rastro de algas para evitar problemas de salud',
     Img: Algae,
   },
@@ -51,9 +55,40 @@ const SERVICES = [
     Img: Sales,
   },
   {
-    title: 'Instalacion',
+    title: 'Instalación',
     description: 'Elimina todo rastro de algas para evitar problemas de salud',
     Img: Installation,
+  },
+]
+
+const NAVBAR_ICONS = [
+  {
+    id: 1,
+    es: 'Inicio',
+    en: 'Home',
+    Img: home,
+    to: '/#id-header',
+  },
+  {
+    id: 2,
+    es: 'Servicios',
+    en: 'Services',
+    Img: services,
+    to: '/#id-services',
+  },
+  {
+    id: 3,
+    es: 'Trabajos',
+    en: 'Works',
+    Img: works,
+    to: '/#id-works',
+  },
+  {
+    id: 4,
+    es: 'Ubicación',
+    en: 'Ubication',
+    Img: ubication,
+    to: '/#id-ubication',
   },
 ]
 
@@ -62,4 +97,4 @@ const FOOTER = {
   en: 'All rights reserved - 2022',
 }
 
-export { ELEMENT_NAV, SERVICES, FOOTER }
+export { ELEMENT_NAV, SERVICES, FOOTER, NAVBAR_ICONS }

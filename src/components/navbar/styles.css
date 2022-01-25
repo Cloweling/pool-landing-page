@@ -1,0 +1,58 @@
+.navbar-mobile {
+  display: none;
+}
+
+@media only screen and (max-device-width: 972px) and (orientation: portrait) {
+  .navbar-mobile {
+    display: block;
+    width: 100%;
+    padding: 0.4rem 0;
+    position: fixed;
+    bottom: 0;
+    background-color: #fff;
+    z-index: 99;
+    box-shadow: 0px -1px 11px -6px rgba(0, 0, 0, 0.5);
+  }
+
+  .navbar__radioGroup {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .navbar__image {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 33%;
+    height: 3rem;
+  }
+
+  .navbar-mobile svg {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin: auto auto;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+
+  .navbar__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+    color: #0e3854;
+  }
+
+  .navbar__link--activate {
+    color: #458dfc;
+  }
+
+  .navbar__description {
+    font-size: 0.8rem;
+  }
+}
