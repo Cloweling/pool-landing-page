@@ -13,13 +13,20 @@
 }
 
 .button-anchor:active {
-  background-color: #0E3854;
+  background-color: #0e3854;
   color: #fff;
 }
 
 @media (hover: hover) {
   .button-anchor:hover {
-    background-color: #0E3854;
+    background-color: #0e3854;
     color: #fff;
+  }
+}
+
+@media only screen and (max-device-width: 972px) and (orientation: portrait) {
+  .button-anchor {
+    font-size: 1.1rem;
+    padding: 0.8rem 1.4rem;
   }
 }

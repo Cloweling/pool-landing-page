@@ -12,3 +12,9 @@
 .logo g {
   fill: white;
 }
+
+@media only screen and (max-device-width: 972px) and (orientation: portrait) {
+  .logo {
+    width: 2rem;
+  }
+}

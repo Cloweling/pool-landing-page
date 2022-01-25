@@ -5,6 +5,7 @@
   background-size: cover;
   display: flex;
   flex-direction: row;
+  padding-top: 1rem;
 }
 
 .header__left {
@@ -91,7 +92,7 @@
 
 @media only screen and (max-device-width: 972px) and (orientation: portrait) {
   .header__title {
-    font-size: 3.5rem;
+    font-size: 3rem;
     width: 18.5rem;
   }
 
@@ -104,21 +105,17 @@
   .header__nav {
     justify-content: space-between;
   }
+
   .header__container-logo {
     margin-right: auto;
   }
 
   .header__container-description {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     width: 18.5rem;
   }
 
   .nav__container-links {
     display: none;
-  }
-
-  .menu__buger {
-    display: inline-block;
-    margin-left: 0.5rem;
   }
 }
