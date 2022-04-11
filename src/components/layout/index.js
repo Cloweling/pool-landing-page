@@ -17,7 +17,7 @@ import intersection2 from '../../images/intersertion/intersection-2.jpg'
 
 export const Layout = () => {
   const [theme, setTheme] = React.useState({
-    lang: localStorage.getItem('lang') || 'en',
+    lang: 'en',
   })
 
   const [scroll, setScroll] = React.useState(0)
