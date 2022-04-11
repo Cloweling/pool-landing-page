@@ -1,14 +1,24 @@
-import React, { useState } from 'react'
+import * as React from 'react'
 import { Switch as SwitchUtil } from '@headlessui/react'
+
+import ThemeContext from '../../contexts/themeContext'
 
 import './styles.css'
 
-export default function Switch() {
-  const [enabled, setEnabled] = useState(false)
+const Switch = () => {
+  const { lang, setTheme } = React.useContext(ThemeContext)
+  const [enabled, setEnabled] = React.useState(lang === 'es')
+  
+  React.useEffect(() => {
+    localStorage.setItem('lang', enabled ? 'es' : 'en')
+
+    setTheme({
+      lang: enabled ? 'es' : 'en',
+    })
+  }, [enabled])
 
   return (
     <div className="switch">
-      {/* TODO: Hay que resolver un problema de accesibilidad, pues si se clickean los label, éstos no cambian al switch */}
       <label className="switch__label" checked={enabled} onChange={setEnabled}>
         En
       </label>
@@ -22,3 +32,5 @@ export default function Switch() {
     </div>
   )
 }
+
+export default Switch
