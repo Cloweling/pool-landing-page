@@ -1,13 +1,19 @@
 import * as React from 'react'
 
-import photo from '../../../images/contact/photo.jpg'
+import { FOOTER } from '../../../constants'
+import ThemeContext from '../../../contexts/themeContext'
+
+import photo from '../../../images/contact/photo.jpeg'
 import PhoneSVG from '../../../images/contact/phone.svg'
 import WhatsappSVG from '../../../images/contact/whatsapp.svg'
 import FacebookSVG from '../../../images/contact/facebook.svg'
 import InstagramSVG from '../../../images/contact/instagram.svg'
+
 import './styles.css'
 
 const Contact = () => {
+  const { lang } = React.useContext(ThemeContext)
+
   return (
     <section id="id-contact" className="contact">
       <div className="contact__container">
@@ -15,7 +21,7 @@ const Contact = () => {
           <img src={photo} alt="Nombre" />
         </div>
         <div className="container__info">
-          <p className="description__name">GERARDO PAZ</p>
+          <p className="description__name">ALEJANDRO CARDENAS</p>
           <div className="info__social">
             <a href="https://wa.me/18182175661?text=Hi" target="_blank" rel="noreferrer">
               <WhatsappSVG />
@@ -32,7 +38,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      <blockquote className="container__quote">&quot;You can count on us&quot;</blockquote>
+      <blockquote className="container__quote">{`"${FOOTER.description[lang]}"`}</blockquote>
     </section>
   )
 }

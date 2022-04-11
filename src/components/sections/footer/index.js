@@ -1,13 +1,16 @@
 import React from 'react'
-import './styles.css'
+
 import { FOOTER } from '../../../constants'
+import ThemeContext from '../../../contexts/themeContext'
+
+import './styles.css'
 
 const Footer = () => {
-  const { es } = FOOTER
+  const { lang } = React.useContext(ThemeContext)
 
   return (
     <footer className="footer">
-      <h3 className="footer--description">{es}</h3>
+      <h3 className="footer--description">{FOOTER.footer[lang]}</h3>
     </footer>
   )
 }
